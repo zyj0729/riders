@@ -177,15 +177,17 @@ h1 {
   text-align: center;
 }
 .service{
-  width:80%;
   display: flex;
+  width:100%;
   margin: 49px auto;
   height: 427px;
   background: white;
 }
 .service > .contents2{
   padding-left: 20px;
-  font-size: 15px;
+  font-size: 16px;
+  flex: 1;
+  text-align: left;
 }
 .service > contents2 > h2{
   margin-bottom: 27px;
@@ -197,7 +199,7 @@ h1 {
   margin:auto;
   width: 100%;
   height: 418px;
-  background-image: url("노을자전거.jpg");
+  background-image: url("자전거날라간다.jpg");
 }
 
 .main_text2 > ul{
@@ -209,18 +211,18 @@ h1 {
   text-align: center;
 }
 .main_text2 > ul > li > div > h1 {
-  color:white;
+  color:black;
   font-weight: lighter;
 }
 .main_text2 > ul > li > div {
-  color:white;
+  color:black;
   font-weight: lighter;
   margin-top: 10px;
 }
 .more2{
   width: 220px;
   height: 40px;
-  border: 1px solid white;
+  border: 1px solid black;
   line-height: 40px;
   cursor: pointer;
   margin: 16px auto;
