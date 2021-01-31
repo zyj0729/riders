@@ -130,7 +130,7 @@ h1 {
 }
 .icons {
   display: flex;
-  width:1000px;
+  width:80%;
   height: 302px;
   margin:auto;
 }
@@ -164,8 +164,10 @@ h1 {
 }
 /*main_text1*/
 .main_text1{
-  width: 100%;
+  width: 80%;
   height: 659px;
+  text-align: center;
+  margin: auto;
 }
 .main_text1 > h1{
   text-align: center;
@@ -183,7 +185,7 @@ h1 {
 }
 .service > .contents2{
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .service > contents2 > h2{
   margin-bottom: 27px;
@@ -193,9 +195,9 @@ h1 {
 .main_text2 {
   text-align: center;
   margin:auto;
-  width: 80%;
+  width: 100%;
   height: 418px;
-  background-image: url("백그라운드이미지.jpg");
+  background-image: url("노을자전거.jpg");
 }
 
 .main_text2 > ul{
@@ -238,5 +240,9 @@ footer > div:first-child{
 }
 footer > div:last-child{
   flex:9;
+  text-align: left;
   color: #fff;
+}
+footer > div > img{
+  padding-top: 10px;
 }
