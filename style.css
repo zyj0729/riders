@@ -145,10 +145,6 @@ h1 {
   width: auto;
   margin-top: 22px;
 }
-.icons > li > .icon_img2{
-  width: auto;
-  margin-top: 50px;
-}
 .icons > li:not(:last-child){
   margin-right: 20px;
 }
